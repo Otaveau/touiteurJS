@@ -1,0 +1,126 @@
+/* Page */
+
+.touitPage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.underForm {
+  display: flex;
+  flex-direction: wrap;
+  background-color: rgb(193, 193, 236);
+}
+
+p{
+  font-style: oblique;
+}
+
+/* Titre & sous-titre */
+
+.head {
+  background-color: rgb(178, 211, 178);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-style: italic;
+}
+
+/* Formulaire d'envoi */
+
+.formulaire {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  background-size: cover;
+  height: 6em;
+}
+
+.pseudo {
+  height: 2em;
+  width: 20em;
+}
+
+.texte {
+  height: 2em;
+  width: 80em;
+}
+
+.bouton {
+  height: 3em;
+  width: 10em;
+  background-color: rgb(189, 146, 146);
+}
+
+/* Container des touits */
+
+.container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: rgb(233, 233, 205);
+  width: 80em;
+}
+
+.touit {
+  display: inline-flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: rgb(111, 111, 185);
+  margin: 1em 1em 1em 1em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  box-shadow: 8px 8px 0px #aaa;
+  border-radius: 10px;
+  max-width: 70em;
+}
+
+.touit:nth-child(4n+1) {
+  background-color: rgb(133, 133, 214);
+}
+
+.touit:nth-child(4n+2) {
+  background-color: rgb(182, 182, 224);
+}
+
+.touit:nth-child(4n+3) {
+  background-color: rgb(213, 213, 236);
+}
+
+.touit:nth-child(4n+4) {
+  background-color: rgb(241, 241, 247);
+}
+
+.message {
+  color: black;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+.name {
+  color: grey;
+  text-align: right;
+  border-radius: 10px;
+}
+
+/* Container des trends */
+
+.trendZone{
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.word {
+  font-weight: bold;
+}
